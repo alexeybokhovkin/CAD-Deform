@@ -2,7 +2,7 @@ import os
 
 
 class AnyPathnames:
-    SHAPENET_OBJ_IN_SCANNET_SCANS_PATH = 'Shapenet_objects_in_Scannet_scans(Scan2CAD).json'
+    SHAPENET_OBJ_IN_SCANNET_SCANS_PATH = 'Shapenet_objects_in_Scannet_scans_Scan2CAD.json'
 
     SHAPES_IN_SCAN2CAD_PARTS = 'PartNet_dir_of_ShapeNet_objects.json'
 
