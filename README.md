@@ -24,7 +24,7 @@ If you want to make inference for ScanNet dataset using ShapeNet/PartNet shape c
 4. Make inference of any CAD model alignment method (for example, [Scan2CAD](https://github.com/skanti/Scan2CAD) or [End-to-end alignment](https://arxiv.org/abs/1906.04201)).
 
 5. Extract exact (for NN data term) or fuzzy (for P2P data term) correspondences between ScanNet scans and aligned PartNet models using nearest-neighbor approach
-using scripts ```scripts/align_shapes.py``` and ```scripts/prepare_deformation_input.py```.
+using scripts ```scripts/align_shapes.py``` and ```scripts/prepare_deformation_input.py```. You also need to use metadata from ```dictionaries``` in ```shapefit/utils/pathnames.py```.
 
 6. Perform the deformation inference (you can see the example in ```notebooks/deformation_inference.ipynb```).
 
